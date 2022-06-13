@@ -10,6 +10,7 @@ import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 import { BubbleAreaChartComponent } from './charts/bubble-area-chart/bubble-area-chart.component';
 import { ScatterAreaChartCopyComponent } from './charts/scatter-area-chart-copy/scatter-area-chart-copy.component';
 import { NgChartsModule } from 'ng2-charts';
+import { MasterComponentComponent } from './master-component/master-component.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { NgChartsModule } from 'ng2-charts';
     PieChartComponent,
     BubbleAreaChartComponent,
     ScatterAreaChartCopyComponent,
+    MasterComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgChartsModule],
   providers: [],
